@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Coffee Time | Brewing Methods</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+<meta name="description" content="Website about coffee and coffee types.">
+<meta name="keywords" content="Coffee, Coffee Seeds, Brewing, Kaffein">
+<meta name="author" content="Damla Su Onarır">
+<style>
+body {
+	margin: 0;
+	font-family:baskerville;
+	}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: bisque;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a, .dropbtn {
+    display: block;
+    color: brown;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active), .dropdown:hover .dropbtn {
+    background-color: saddlebrown;
+    color:white;
+}
+
+ul.topnav li a.active {background-color: saddlebrown;
+color:white;
+}
+
+li.dropdown {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: bisque;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: blue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: blue;
+color:yellow;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width: 600px){
+    img {width:100%;float:none;margin-left:auto;margin-right:auto;}
+    iframe {width:100%;height:300px;margin-left:auto;margin-right:auto;}
+    video {width:100%;height:auto;margin-left:auto;margin-right:auto;}
+    ul.topnav {width:100%;}
+    ul.topnav li {float: none;}
+    ul.topnav li a {text-align:center;}
+    ul.topnav li.dropdown div.dropdown-content {width:100%;}
+    ul.topnav li.dropdown div.dropdown-content a {text-align:center;}
+    div.facultylinks {float:none;margin:auto;width:100%;text-align:center;}
+}
+
+div.container {
+    width: 100%;
+    border: 1px solid white;
+}
+
+header, footer {
+    padding: 5px;
+    color: saddlebrown;
+    background-color: blanchedalmond;
+    clear: left;
+    text-align: center;
+}
+
+article {
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+}
+
+ul.verticallist {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+ul.verticallist li {
+	display:block;
+	background-color:bisque;
+	margin:7px;
+}
+
+ul.verticallist li a {
+	text-decoration:none;
+	color:brown;
+	font-family:baskerville;
+	font-size:20px;
+	border:2px dotted brown;
+	display:block;
+}
+
+ul.verticallist li a:hover {
+	background-color:brown;
+	color:bisque;
+	border:2px dotted bisque;
+	display:block;
+}
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px dotted#ddd;
+}
+th {
+  text-align: left;
+	background-color: bisque;
+}
+	th, td{
+		padding: 5px;
+	}
+
+	
+</style>
+</head>
+<body>
+<ul class="topnav">
+  <li><a href="default.html">Home</a></li>
+  <li><a href="about.html">About us</a></li>
+<li class="dropdown">
+    <a href="coffeebeans.html" class="dropbtn">Coffee Beans &#9662;</a>
+    <div class="dropdown-content">
+      <a href="arabica.html">Arabica</a><br>
+      <a href="robusta.html">Robusta</a><br>
+      <a href="excelsa.html">Excelsa</a><br>	
+		<a href="liberica.html">Liberica</a><br>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="coffeebrewing.html" class="dropbtn;">Coffee Brewing &#9662;</a>
+    <div class="dropdown-content">
+      <a href="methods.html" class="active">Methods</a><br>
+      <a href="equipment.html">Equipment</a><br>
+	  </div> 
+  </li>
+  <li><a href="latteart.html">Latte Art</a></li>
+  <li><a href="produce.html">Producing Countries</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+
+
+<div class="container">
+<header>
+   <h1>COFFEE BREWING</h1>
+</header>
+<article>
+<h1>Coffee Basics: Brewing Methods</h1>
+	
+<img src="web tasarım proje/pourover.webp" width="15%" alt="pourover" style="float:left;margin:5px;">
+<h2 style="color: brown; text-align: center">Pour Over</h2>
+	<i style="font-size: 18px;">Manual pour-overs are great for brewing one to two cups at a time.</i><br>
+	<p>The pour-over is a great way to tease out the subtle flavors of a particular coffee, and it allows for easy experimentation to calibrate to exactly what you want in a coffee. Using a cone and a filter, you can control each brewing variable to get the optimal flavor out of the grounds. Manual brewers like the Beehouse, Kalita Wave, or V60 yield sweet, clean coffees, and larger format brewers like the Chemex are perfect for brewing for a larger group.</p>
+	<img src="web tasarım proje/pourovergrind.jpeg" width="10%" alt="pourovergrind" style="float:right;margin:5px;padding-right: 100px;">
+	<b style="color: brown;">Grind Recommendation:</b>
+	<p style="color: brown">A finer grind for smaller pour over cones—like table salt. Medium-Coarse grind for larger brewers like the Chemex—like kosher salt.</p>
+
+	<br><br><br><br>
+<br>
+	
+<img src="web tasarım proje/frenchpress.webp" width="15%" alt="frenchpress" style="float:left;margin:5px;">
+<h2 style="color: brown; text-align: center">French Press</h2>
+	<i style="font-size: 18px;">The French press is an easy way to make full-bodied coffee.</i><br>
+	<p>French press is a tried-and-true way to make delicious, full-bodied coffee. It is a full-immersion method, where coffee grounds sit in water for four to five minutes, and then a filter is plunged through the brewing device to “press” down the grounds. Because the grounds come into direct contact with the water—and remain in contact through the duration of the brew time—this method often results in the perception of a stronger flavor because of the insoluble material that remains in the final cup.</p>
+	<img src="web tasarım proje/frenchpressgrind.jpeg" width="10%" alt="frenchpressgrind" style="float:right;margin:5px;padding-right: 100px;">
+	<b style="color: brown;">Grind Recommendation:</b>
+	<p style="color: brown;">Coarse grind—like sea salt.</p>
+
+	<br><br><br>
+
+<img src="web tasarım proje/espresso.jpeg" width="15%" alt="espresso" style="float:left;margin:5px;">
+<h2 style="color: brown; text-align: center">Espresso</h2>
+	<i style="font-size: 18px;">Espresso is much more concentrated than other brew methods.</i><br>
+	<p>Espresso is a great way to amplify the characteristics of your favorite coffee. Think of it as coffee under a microscope. Espresso machines use pressure to force water through the grounds, speeding up the extraction and making a potent “shot” of coffee.  While espresso has more caffeine per unit volume than most other coffee drinks, the total caffeine content is actually lower than a standard cup of coffee because of its smaller serving size. Use this method if you like strong coffee, fast.</p>
+	<img src="web tasarım proje/espressogrind.jpeg" width="10%" alt="espressogrind" style="float:right;margin:5px;padding-right: 100px;">
+	<b style="color: brown;">Grind Recommendation:</b>
+	<p style="color: brown;">Very fine grind required. Espresso-specific grinder recommended.</p>
+
+	<br><br><br>
+
+<img src="web tasarım proje/aeropress2.webp" width="15%" alt="aeropress" style="float:left;margin:5px;">
+<h2 style="color: brown; text-align: center">Aeropress</h2>
+	<i style="font-size: 18px;">The AeroPress is a great brewing method for those on the go.</i><br>
+	<p>The AeroPress is a go-to brew method for those who love delicious coffee on the go. Low profile and durable, this easy-to-transport brewer is a great way to have tasty coffee for one or two while traveling. Unlike the French press, which often yields grit at the bottom of your cup, the AeroPress results in a clean, full-flavored experience because of its paper microfilter.</p>
+	<img src="web tasarım proje/aeropressgrind.jpeg" width="10%" alt="aeropressgrind" style="float:right;margin:5px;padding-right: 100px;">
+	<b style="color: brown;">Grind Recommendation:</b>	
+	<p style="color: brown;">Fine-to-medium grind.</p>
+
+    <br><br><br>
+	
+<img src="web tasarım proje/mokapot.jpeg" width="15%" alt="mokapot" style="float:left;margin:5px;">
+<h2 style="color: brown; text-align: center">Moka Pot</h2>
+	<i style="font-size: 18px;">The Moka Pot is a straightforward way of making a rich, strong brew over a stove.</i><br>
+	<p>A Moka Pot is a compact and affordable brewer that gives you a concentrated dose of coffee, rather than an espresso replacement. Despite the learning curve and the misunderstood mechanics, it’s worth exploring and learning to tame. With one at your side, you’ll be able to make rich, balanced espresso-like coffee that you can enjoy on its own or paired with other ingredients.</p>
+	<img src="web tasarım proje/mokapotgrind.jpeg" width="10%" alt="mokapotgrind" style="float:right;margin:5px;padding-right: 100px;">
+	<b style="color: brown;">Grind Recommendation:</b>
+	<p style="color: brown;">Fine-to-medium grind.</p>
+
+  </article>
+<br>
+<br>
+
+<footer>Copyright &copy; Coffee Time</footer>
+
+</div>
+
+</body>
+</html>
